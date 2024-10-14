@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-task"
+version = "0.1.0"
+description = ""
+authors = ["vladislav918 <lvlal5759@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+webdriver-manager = "^4.0.2"
+selenium-wire = "^5.1.0"
+blinker = "1.7.0"
+setuptools = "^75.1.0"
+selenium-stealth = "^1.0.6"
+bs4 = "^0.0.2"
+environs = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
